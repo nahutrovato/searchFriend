@@ -16,6 +16,10 @@ const SearchBox = () => {
                  <label>
                     <button className='search-box-button'>Buscar</button>
                 </label>
+                <label>
+                    <button className='search-box-button'>Cerrar</button>
+                </label>
+                
             </div>
           
         </div>
