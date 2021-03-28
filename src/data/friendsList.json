@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "name": "Facundo",
+        "lastName": "Cordoba",
+        "born": "21/10/1991",
+        "pets": "Yuve the cat",
+        "occupation": "Developer"
+    },
+    {
+        "id": 1,
+        "name": "Juan",
+        "lastName": "Campos",
+        "born": "21/10/1991",
+        "pets": "Diego the cat",
+        "occupation": "Bioquimic"
+    },
+    {
+        "id": 2,
+        "name": "Tomas",
+        "lastName": "Jabbur",
+        "born": "21/10/1991",
+        "pets": "Yuve the cat",
+        "occupation": "hygiene and safety technical"
+    }
+]

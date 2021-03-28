@@ -1,8 +1,10 @@
+import { useState } from 'react'
 import SearchBox from './components/SearchBox/SearchBox'
 import './styles.css'
 const Search = () =>{
+    const [isAtTop,setIsAtTop] =  useState(false);
     const handleChangeClick = () =>{
-        console.log('on search')
+        setIsAtTop(!isAtTop);
     }
     const handleCloseClick = () =>{
         console.log('on close')
