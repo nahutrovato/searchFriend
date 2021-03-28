@@ -1,9 +1,15 @@
 import SearchBox from './components/SearchBox/SearchBox'
 import './styles.css'
 const Search = () =>{
+    const handleChangeClick = () =>{
+        console.log('on search')
+    }
+    const handleCloseClick = () =>{
+        console.log('on close')
+    }
     return(
         <div className='search'>
-            <SearchBox/>
+            <SearchBox onSearch={handleChangeClick} onClose={handleCloseClick}/>
         </div>
     );
 }
